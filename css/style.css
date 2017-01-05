@@ -1,0 +1,166 @@
+body
+{
+    font-size: 14px;
+}
+.title
+{
+ margin-top: 160px;
+    margin-bottom: 20px;
+}
+div
+{
+    display: block;
+}
+.main-container
+{
+  max-width: 100%;
+}
+.navbar
+{
+    margin: 0 auto;
+    background-color: transparent;
+}
+.content
+{
+    color:white;
+    /*position: absolute;*/
+}
+.cards-size
+{
+    width: 200px;
+    height: 200px;
+}
+.no-padding
+{
+    margin-top: 42px;
+}
+.section-padd
+{
+    background-color: deepskyblue;
+    color: white;
+    background-size: cover;
+    padding:10px 0;
+}
+.get-started
+{
+    background-color: black;
+    height: 60px;
+    width: 210px;
+    text-transform: capitalize;
+    font-size: 1.25em;
+    color: white;
+    cursor: pointer;
+    margin: 0 auto 0 auto;
+}
+.btn
+{
+    display: inline-block;
+    padding-top: 18px;
+    color: white;
+}
+.section-details
+{
+    padding: 75px 0;
+}
+.details-container
+{
+    max-width: 1600px;
+    margin:0 auto;
+}
+/*@media (min-width: 768px).col-sm-offset-0
+{
+    margin-left:0;
+}
+    @media (min-width: 768px)
+        .col-sm-12
+    {
+        width: 100%;
+    }
+        @media (min-width: 768px)
+            .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9
+            {
+                float:left;
+            }*/
+
+.informations
+{
+    padding:10px 40px;
+}
+.text-black
+{
+    color: black;
+    font-weight: 500;
+}
+.program-title
+{
+    font-size: 1.8em;
+    margin: 100px 23px 30px;
+}
+.program-details
+{
+    margin: 1em -1em;
+}
+.sub-sections ul
+{
+    list-style: none;
+}
+.program-img
+{
+
+    padding: 20px 30px;
+}
+.pull-right
+{
+    float: right!important;
+}
+.final-container
+{
+    background-color: deepskyblue;
+    width: 100%;
+}
+.final-header
+{
+padding-top: 100px;
+    color: white;
+}
+.section-final
+{
+   margin-top: -70px;
+    background-color: deepskyblue;
+    height: 300px;
+    max-width: 100%;
+    background-size: cover;
+    position: relative;
+}
+.btn-link
+{
+background-color: black;
+    height: 60px;
+    width: 210px;
+    /*text-transform: capitalize;*/
+    font-size: 1.25em;
+    color: white;
+    cursor: pointer;
+    /*margin: 30px 0 0 580px;*/
+
+}
+.link
+{
+    text-transform: capitalize;
+    text-decoration: none;
+    display: inline-block;
+    padding: 18px ;
+    color: white;
+}
+.section-final.sub-sections
+{
+    position:relative;
+}
+.board-img
+{
+padding-top: 100px;
+    right: -128px;
+    bottom:-300px;
+    position: absolute;
+    /*padding-left:150px*/
+}
