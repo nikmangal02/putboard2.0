@@ -1,53 +1,65 @@
 body
 {
     font-size: 14px;
-}
-.title
-{
- margin-top: 160px;
-    margin-bottom: 20px;
-}
-div
-{
-    display: block;
+    overflow-x:hidden;
 }
 .main-container
 {
-  max-width: 100%;
-}
-.navbar
-{
-    margin: 0 auto;
-    background-color: transparent;
-}
-.content
-{
-    color:white;
-    /*position: absolute;*/
-}
-.cards-size
-{
-    width: 200px;
-    height: 200px;
+    max-width: 100%;
 }
 .no-padding
 {
     margin-top: 42px;
 }
+/*navbar header*/
+.navbar
+{
+    margin: 0 auto;
+    background-color: transparent;
+}
+/*end navbar header*/
+
+/*intro div*/
+.content
+{
+    color:white;
+    margin-top: 160px;
+}
+.title
+{
+ font-weight: 700;
+}
+.content h3
+{
+    font-size: larger;
+    font-weight:700;
+}
+
+.cards img
+{
+    width: 200px;
+    height: 250px;
+}
+/*end of intro div*/
+
+/*section-info*/
 .section-padd
 {
-    background-color: deepskyblue;
+    background-color: #005aff;
     color: white;
     background-size: cover;
-    padding:10px 0;
+    padding:45px 0;
+}
+.section-info h3
+{
+    font-weight: 600;
 }
 .get-started
 {
     background-color: black;
+    font-size: 1.25em;
     height: 60px;
     width: 210px;
-    text-transform: capitalize;
-    font-size: 1.25em;
     color: white;
     cursor: pointer;
     margin: 0 auto 0 auto;
@@ -55,9 +67,17 @@ div
 .btn
 {
     display: inline-block;
+    text-transform: capitalize;
     padding-top: 18px;
+    height: 60px;
+    font-weight:600;
+    font-size: larger;
+    /*width: 210px;*/
     color: white;
 }
+/*end section info*/
+
+/*section details*/
 .section-details
 {
     padding: 75px 0;
@@ -67,6 +87,41 @@ div
     max-width: 1600px;
     margin:0 auto;
 }
+/*subsection1 subsection2 subsection3*/
+.informations
+{
+    padding:90px 50px;
+}
+.text-black
+{
+    color: black;
+    font-weight: 500;
+}
+.program-title
+{
+    font-size: 1.8em;
+    font-weight: 500;
+    margin:0 23px 30px;
+}
+.program-details
+{
+    margin: 1em -1em;
+}
+.sub-sections ul
+{
+    list-style: none;
+}
+.program-img
+{
+    padding: 0 30px;
+}
+.pull-right
+{
+    float: right!important;
+}
+/*end subsection1 subsection2 subsection3*/
+/*end section details*/
+
 /*@media (min-width: 768px).col-sm-offset-0
 {
     margin-left:0;
@@ -81,52 +136,29 @@ div
             {
                 float:left;
             }*/
+@media screen and (min-width: 995px)
+{
+    .board-img
+    {
+        position: absolute;
+    }
+}
 
-.informations
-{
-    padding:10px 40px;
-}
-.text-black
-{
-    color: black;
-    font-weight: 500;
-}
-.program-title
-{
-    font-size: 1.8em;
-    margin: 100px 23px 30px;
-}
-.program-details
-{
-    margin: 1em -1em;
-}
-.sub-sections ul
-{
-    list-style: none;
-}
-.program-img
-{
-
-    padding: 20px 30px;
-}
-.pull-right
-{
-    float: right!important;
-}
+/*section-final*/
 .final-container
 {
-    background-color: deepskyblue;
+    background-color:#005aff ;
     width: 100%;
 }
 .final-header
 {
-padding-top: 100px;
+    padding-top: 100px;
     color: white;
 }
 .section-final
 {
-   margin-top: -70px;
-    background-color: deepskyblue;
+    margin-top: -70px;
+    background-color: #005aff;
     height: 300px;
     max-width: 100%;
     background-size: cover;
@@ -134,22 +166,22 @@ padding-top: 100px;
 }
 .btn-link
 {
-background-color: black;
     height: 60px;
     width: 210px;
-    /*text-transform: capitalize;*/
     font-size: 1.25em;
     color: white;
+    text-decoration: none;
     cursor: pointer;
-    /*margin: 30px 0 0 580px;*/
-
+    padding: 10px 80px 0 0;
 }
 .link
 {
     text-transform: capitalize;
-    text-decoration: none;
     display: inline-block;
+    background-color: black;
     padding: 18px ;
+    height: 60px;
+    width: 210px;
     color: white;
 }
 .section-final.sub-sections
@@ -158,9 +190,10 @@ background-color: black;
 }
 .board-img
 {
-padding-top: 100px;
+    padding-top: 100px;
     right: -128px;
     bottom:-300px;
-    position: absolute;
+    /*position: absolute;*/
     /*padding-left:150px*/
 }
+/*end section-final*/
