@@ -7,10 +7,6 @@ body
 {
     max-width: 100%;
 }
-.no-padding
-{
-    margin-top: 42px;
-}
 /*navbar header*/
 .navbar
 {
@@ -20,6 +16,10 @@ body
 /*end navbar header*/
 
 /*intro div*/
+.cards-padd
+{
+    margin-top: 42px;
+}
 .content
 {
     color:white;
@@ -39,6 +39,25 @@ body
 {
     width: 200px;
     height: 250px;
+}
+.intro-div .col-md-3
+{
+    position: relative;
+}
+.cards-details
+{
+    position: absolute;
+    top: 200px;
+    width: 200px;
+    background-color: white;
+    height: 50px;
+   padding-left: 0;
+}
+.cards-details p{
+    z-index: -1;
+    font-size: small;
+    color: #000000;
+    font-weight: 500;
 }
 /*end of intro div*/
 
